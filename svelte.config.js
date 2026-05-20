@@ -4,10 +4,7 @@ import adapter from '@sveltejs/adapter-node';
 const config = {
   compilerOptions: {
     // Force runes mode for the project, except for libraries. Can be removed in svelte 6.
-    experimental: { async: true },
-    compatibility: {
-      componentApi: 4
-    }
+    experimental: { async: true }
   },
   kit: {
     // adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
