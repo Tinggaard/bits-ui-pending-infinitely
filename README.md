@@ -1,8 +1,5 @@
 # Steps to reproduce
 
-> [!NOTE]
-> This is the branch using svelte `5.55.5`, which is KNOWN GOOD.
-
 ```
 pnpm i
 pnpm dev
